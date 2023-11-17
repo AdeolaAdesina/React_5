@@ -134,6 +134,43 @@ export default ProfilePage;
 
 
 
+Project:
+
+In the code editor, we’ve provided three files, App.js, index.js, and HelloWorld.js. Render a “Hello World!” greeting onto the screen with the appropriate file structure, where App.js contains the top-level component and index.js renders it.
+
+If you’re stuck, view the hints on what should be included in each file.
+
+
+HelloWorld.js:
+
+Import the React module to use JSX.
+Define a HelloWorld function component that returns an h1 with a greeting.
+Export the HelloWorld component.
+
+App.js:
+
+Import the React module to use JSX.
+Import HelloWorld to use the component.
+Define an App function component that returns an instance of the HelloWorld component.
+Export the App component.
+
+index.js:
+
+Import the React module to use JSX.
+Import ReactDOM to render elements.
+Import the App top-level component
+Use createRoot to specify a container to render the elements in, and render the App component.
+
+
+
+![Screenshot 2023-11-17 at 06 04 24](https://github.com/AdeolaAdesina/React_5/assets/29931071/e68bc2e9-cf80-4c10-8e9e-e1ec56c046b9)
+
+
+![Screenshot 2023-11-17 at 06 04 28](https://github.com/AdeolaAdesina/React_5/assets/29931071/9c7637e3-dd82-41ed-916f-1d59fac81ed1)
+
+
+![Screenshot 2023-11-17 at 06 05 44](https://github.com/AdeolaAdesina/React_5/assets/29931071/86f86e89-4cee-4369-a8af-c143c4066d66)
+
 
 
 
